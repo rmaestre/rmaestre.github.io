@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: [Ttitle]
-description: [Description]
+theme: jekyll-theme-cayman
+title: Title
+description: Description
+show_downloads: true
