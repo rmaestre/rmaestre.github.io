@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Astronomía en remoto
 description: Tutorial para el uso de telescopios en remoto. Captura y procesado de imágenes astronómicas
-show_downloads: false
+show_downloads: true
