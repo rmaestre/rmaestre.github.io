@@ -101,3 +101,30 @@ Una vez que tenemos todos los datos del objeto y de los filtros rellenos, proced
 
 ![Paso_4](img/plan_4.jpg)
 
+
+
+
+### 4. Reservar
+
+Ahora, solo queda reservar un slot en el telescopio para que se ejecute el plan que hemos diseñado en el paso anterior. Para ellos, pulsaremos el enlace de **Make a reservation* del menú de la parte izquierda. Aparacerá un calendario como el de la siguiente imagen. En el, se marca en verde los espacios que ya han reservado los usuarios para ejecutar una planificación. 
+
+
+![Paso_5](img/plan_5.jpg)
+
+Ahora tenemos que elegir un hueco libre (siempre teniendo en cuenta el tránsito del objeto y su visivilidad) y seleccionarlo pulsando con el ratón en el calendario. Deberemos rellenar:
+
+* **Start Time** y **End time**: el rango seleccionado para la ejecución del plan
+* **Plan to run**: seleccionando el nombre del plan que creamos en el paso anterior
+
+cuando todo esté correctamente relleno, pulsaremos el botón *Confirm Reservation*.
+
+![Paso_6](img/plan_6.jpg)
+
+En este paso, aparecerá reservado nuestro espacio en el telescopio para ejecutar nuestro plan. Solo tenemos que esperar !
+
+# Descargar las Imágenes
+
+Una vez el plan se ejecute, nos llegará al correo un resumen del estado de la ejecución, número de imágenes tomadas, visibilidad, etc, ... En ese momento, ya podemos ir al servidor ftp de iTelescope y descargar las imágenes: [Servidor de datos FTP ](https://data.itelescope.net/).
+
+**Nota**: Una cosa interesante, es que podemos acceder a las imágenes ya calibradas. Pero si queremos las imágenes RAW, tendremos también disponibles las imágenes de calibración bias, dark y flats.
+
