@@ -1,7 +1,7 @@
 
 
 
-[Volver al inicio](https://rmaestre.github.io/ <<<)
+[Volver al inicio <<](https://rmaestre.github.io/)
 <hr>
 
 # Obtener Imágenes
@@ -126,5 +126,5 @@ Y si todo ha ido bien, recibiremos un mail con toda la información de la ejecuc
 
 <hr>
 
-[Volver al inicio](https://rmaestre.github.io/ <<<)
+[Volver al inicio <<](https://rmaestre.github.io/)
 

@@ -1,5 +1,5 @@
 
-[Volver al inicio <<<](https://rmaestre.github.io/)
+[Volver al inicio <<](https://rmaestre.github.io/)
 
 <hr>
 
@@ -142,7 +142,7 @@ Se observa como el ruido ha desaparecido en las capas con estructuras mas peque√
 Cerraremos el tiempo real, y aplicaremos la reducci√≥n de ruido a toda la imagen.
 
 <hr>
-[Volver al inicio <<<](https://rmaestre.github.io/)
+[Volver al inicio <<](https://rmaestre.github.io/)
 
 
 

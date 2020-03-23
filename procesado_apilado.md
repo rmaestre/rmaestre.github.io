@@ -1,6 +1,6 @@
 
 
-[Volver al inicio <<<](https://rmaestre.github.io/)
+[Volver al inicio <<](https://rmaestre.github.io/)
 
 <hr>
 
@@ -23,7 +23,13 @@ A continuación, usando la herramienta:
 ```
 Process >> (All Processes) >> Screen Transfer Function
 ```
-visualizaremos cada una de las imágenes para buscar defectos o posibles errores.
+
+cabe recordar que para estirar las imágenes y poder visualizarlas en nuestro ordenadores, hay que pulsar al botón **Auto Strech** que viene en la siguiente imás gen con un círculo rojo:
+
+![pixinsight](img/pixinsight/STF.jpg)
+
+
+de esta forma, visualizaremos cada una de las imágenes para buscar defectos o posibles errores.
 
 ![pixinsight](img/pixinsight/open_stf.jpg)
 
@@ -146,4 +152,4 @@ Process >> (All Processes) >> Channel Combination
 
 <hr>
 
-[Volver al inicio <<<](https://rmaestre.github.io/)
+[Volver al inicio <<](https://rmaestre.github.io/)
