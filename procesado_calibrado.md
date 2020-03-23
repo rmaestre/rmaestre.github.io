@@ -93,13 +93,13 @@ Process >> (All Processes) >> SCRN
 ```
 
 
-![pixinsight](img/pixinsight/scrn.jpg)
+![pixinsight](img/pixinsight/SCRN.jpg)
 
 y volvemos a modificar los niveles de saturación, observamos que ese verde ha desaparecido:
 
 
 
-![pixinsight](img/pixinsight/scrn_ok.jpg)
+![pixinsight](img/pixinsight/SCRN_ok.jpg)
 
 <hr>
 [Volver al inicio <<](https://rmaestre.github.io/)
