@@ -4,6 +4,7 @@
 * [Descargar las imágenes](descarga.html)
 * Procesar imágenes
   * [Apilado e integración de canales](procesado_apilado.html)
+  * [Combinado en una sola imágen](procesado_combinado.html)
   * [Calibrado](procesado_calibrado.html)
   * [Reducción de ruido](procesado_rn.html)
   * Estirado
