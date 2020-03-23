@@ -1,3 +1,18 @@
+# Índice
+
+* [Telescopio en remoto](telescopio.html)
+* [Descargar las imágenes](descarga.html)
+* Procesar imágenes
+  * [Apilado e integración de canales](procesado_apilado.html)
+  * [Calibrado](procesado_calibrado.html)
+  * [Reducción de ruido](procesado_rn.html)
+  * Estirado
+  * Correciones cosméticas
+  * Máscaras de estrellas
+  * Integrar otro canal (H$\alpha$)
+
+
+
 # Introducción
 
 Este pequeño manual está pensado como introducción _práctica y divertida_ a la toma y procesado de imágenes astronómicas en el contexto que se ha producido en nuestras sociedades a raíz del impacto del coronavirus [#YoMeQuedoEnCasa](https://twitter.com/search?q=%23YoMeQuedoEnCasa&src=typed_query).
@@ -10,14 +25,3 @@ Un ejemplo de lo que se puede hacer, con este tutorial, es los siguiente (NGC332
 
 
 ![NGC3324](img/NGC3324.jpg)
-
-
-Este pequeño manual consta de las siguientes secciones:
-
-* [Telescopio en remoto](telescopio.html)
-* [Descargar las imágenes](descarga.html)
-* Procesar imágenes
-  * [Apilado e integración de canales](procesado_apilado.html)
-  * [Calibrado](procesado_calibrado.html)
-  * [Reducción de ruido](procesado_rn.html)
-
