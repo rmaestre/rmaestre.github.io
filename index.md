@@ -9,7 +9,7 @@
   * Estirado
   * Correciones cosméticas
   * Máscaras de estrellas
-  * Integrar otro canal (H$\alpha$)
+  * Integrar otro canal (Ha)
 
 
 
