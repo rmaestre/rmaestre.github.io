@@ -1,4 +1,8 @@
 
+[Volver al inicio <<<](https://rmaestre.github.io/)
+
+<hr>
+
 # Procesado - Reducción de ruido
 
 El siguiente paso es el de reducción de ruido. Para ello usaremos la herramienta **MultiscaleMedianTransform** que es un nuevo proceso basado en descomposición de *wavelets*. 
@@ -136,6 +140,9 @@ Se observa como el ruido ha desaparecido en las capas con estructuras mas peque�
 ![pixinsight](img/pixinsight/mm_comparativa_detail.jpg)
 
 Cerraremos el tiempo real, y aplicaremos la reducción de ruido a toda la imagen.
+
+<hr>
+[Volver al inicio <<<](https://rmaestre.github.io/)
 
 
 

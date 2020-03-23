@@ -1,51 +1,46 @@
 
-
-[Volver al inicio <<<](https://rmaestre.github.io/)
-
-<hr>
-
 # Procesado - Apilado
 
-Aunque existen otras herramientas gratuitas de procesado de imágenes astronómicas, nosotros usaremos [PixInsight](https://pixinsight.com/). Es probablemente el software mas completo y potente que existe en el mercado. Además, dispone de un libro con gran detalle sobre sus herramientas, scripts y funcionalidades.
+Aunque existen otras herramientas gratuitas de procesado de imágenes astronómicas, nosotros usaremos [PixInsight](https://pixinsight.com/). Es probablemente el software mas completo y potente que existe en el mercado. AdemÃ¡s, dispone de un libro con gran detalle sobre sus herramientas, scripts y funcionalidades.
 
 ![pixinsight](img/pixinsight.jpg)
 
-Un tutorial que explica en secuencia los pasos básicos para procesar una imagen puede encontrarse en este [vídeo tutorial](https://www.youtube.com/watch?v=_lqrXaJEs7g). Dado el enfoque de este artículo, yo propongo unos pasos muy resumidos para conseguir un buen resultado en poco tiempo con el objetivo de pasarlo bien y hacer una pequeña iteracción sobre la herramienta con los datos que nos hemos bajado.
+Un tutorial que explica en secuencia los pasos bÃ¡sicos para procesar una imagen puede encontrarse en este [v??deo tutorial](https://www.youtube.com/watch?v=_lqrXaJEs7g). Dado el enfoque de este art??culo, yo propongo unos pasos muy resumidos para conseguir un buen resultado en poco tiempo con el objetivo de pasarlo bien y hacer una pequeÃ±a iteracciÃ³n sobre la herramienta con los datos que nos hemos bajado.
 
 
-## 1. Abrir las imágenes
+## 1. Abrir las im?genes
 
-Lo primero de todo, sería abrir las imágenes (todos los archivos **.fit**).
+Lo primero de todo, ser? abrir las im?genes (todos los archivos **.fit**).
 
 ![pixinsight](img/pixinsight/open.jpg)
 
-A continuación, usando la herramienta: 
+A continuaciÃ³n, usando la herramienta: 
 ```
 Process >> (All Processes) >> Screen Transfer Function
 ```
-visualizaremos cada una de las imágenes para buscar defectos o posibles errores.
+visualizaremos cada una de las im?genes para buscar defectos o posibles errores.
 
 ![pixinsight](img/pixinsight/open_stf.jpg)
 
-## 2. Alinear las imágenes
+## 2. Alinear las im?genes
 
-El fin último de alinear todas las imágenes, es poder combinar toda la informacion de los diferentes canales (R,G,B,L,Ha,...) que se han tomado en las diferentes exposiciones en una sola imagen maestra. Por lo tanto, lo siguiente que tenemos que hacer, es realizar un alineamiento de todas las imágenes; para ellos, usaremos la herramienta:
+El fin Ãºltimo de alinear todas las im?genes, es poder combinar toda la informacion de los diferentes canales (R,G,B,L,Ha,...) que se han tomado en las diferentes exposiciones en una sola imagen maestra. Por lo tanto, lo siguiente que tenemos que hacer, es realizar un alineamiento de todas las im?genes; para ellos, usaremos la herramienta:
 
 ```
 Process >> (All Processes) >> Star Aligment
 ```
-Simplemente, en primer lugar seleccionaremos una imagen como referencia y en segundo lugar todas las demás para alinear.
+Simplemente, en primer lugar seleccionaremos una imagen como referencia y en segundo lugar todas las demÃ¡s para alinear.
 
 ![pixinsight](img/pixinsight/star_aligment.jpg)
 
-Esto generará, de nuevo todas las imágenes alineadas, como se aprecia en la salida del proceso:
+Esto generarÃ¡, de nuevo todas las im?genes alineadas, como se aprecia en la salida del proceso:
 
 ![pixinsight](img/pixinsight/star_aligment_folder.jpg)
 
 
 ## 3. Integrar los datos de cada canal
 
-Usando las imágenes que hemos alineado en el paso previo, usaremos la herramienta:
+Usando las im?genes que hemos alineado en el paso previo, usaremos la herramienta:
 
 ```
 Process >> (All Processes) >> Image integration
@@ -55,18 +50,18 @@ Process >> (All Processes) >> Image integration
 ![pixinsight](img/pixinsight/image_integration_output.jpg)
 
 
-para combinar las señales de cada canal y generar una única imagen por canal. En el ejemplo de la siguiente figura, integramos todas las imágenes del canal de Luminancia (L) obteniendo una sola imagen con todas la información combinada.
+para combinar las seÃ±ales de cada canal y generar una Ãºnica imagen por canal. En el ejemplo de la siguiente figura, integramos todas las im?genes del canal de Luminancia (L) obteniendo una sola imagen con todas la informaciÃ³n combinada.
 
 ![pixinsight](img/pixinsight/image_integration_output_stf.jpg)
 
-Repitiendo esto para los cuatro canales, obtenemos las siguientes imágenes master:
+Repitiendo esto para los cuatro canales, obtenemos las siguientes im?genes master:
 
 ![pixinsight](img/pixinsight/LRGB.jpg)
 
 
 ## 4. Combinar canales previamente integrados (LRGB o RGB)
 
-Ahora, podemos combinar las cuatro imágenes integradas previemante: L,G,R y B. Para ello usaremos la herramienta:
+Ahora, podemos combinar las cuatro im?genes integradas previemante: L,G,R y B. Para ello usaremos la herramienta:
 
 ```
 Process >> (All Processes) >> LRGB combination
@@ -76,7 +71,7 @@ Como resultado, obtenemos la imagen combinada a partir de los cuatro canales int
 
 ![pixinsight](img/pixinsight/LRGB_output.jpg)
 
-Si no tenemos el canal de Luminancia o solamente tenemos RGB, podríamos usar la herramienta: 
+Si no tenemos el canal de Luminancia o solamente tenemos RGB, podr??amos usar la herramienta: 
 ```
 Process >> (All Processes) >> Channel Combination
 ```
@@ -129,7 +124,7 @@ Repitiendo esto para los cuatro canales, obtenemos las siguientes im?genes maste
 
 ## 4. Combinar canales previamente integrados (LRGB o RGB)
 
-Ahora, podemos combinar las cuatro im?genes integradas previemante: L,G,R y B. Para ello usaremos la herramienta:
+Ahora, podemos combinar las cuatro im?genes integradas previamente: L,G,R y B. Para ello usaremos la herramienta:
 
 ```
 Process >> (All Processes) >> LRGB combination
@@ -143,7 +138,3 @@ Si no tenemos el canal de Luminancia o solamente tenemos RGB, podr?amos usar la 
 ```
 Process >> (All Processes) >> Channel Combination
 ```
-
-<hr>
-
-[Volver al inicio <<<](https://rmaestre.github.io/)
