@@ -2,7 +2,7 @@
 [Volver al inicio <<](https://rmaestre.github.io/)
 <hr>
 
-# Procesado - Calibrado
+# Calibrado
 
 ## 1. DynamicBackground (Extraction)
 

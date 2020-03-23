@@ -3,7 +3,7 @@
 
 <hr>
 
-# Procesado - Reducción de ruido
+# Reducción de ruido
 
 El siguiente paso es el de reducción de ruido. Para ello usaremos la herramienta **MultiscaleMedianTransform** que es un nuevo proceso basado en descomposición de *wavelets*. 
 

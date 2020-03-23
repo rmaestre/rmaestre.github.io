@@ -4,7 +4,7 @@
 
 <hr>
 
-# Procesado - Apilado
+# Apilado
 
 Aunque existen otras herramientas gratuitas de procesado de imágenes astronómicas, nosotros usaremos [PixInsight](https://pixinsight.com/). Es probablemente el software mas completo y potente que existe en el mercado. Además, dispone de un libro con gran detalle sobre sus herramientas, scripts y funcionalidades.
 
