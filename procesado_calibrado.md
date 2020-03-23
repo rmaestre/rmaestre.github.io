@@ -11,7 +11,7 @@ Usaremos la siguiente herramienta:
 Process >> (All Processes) >> DynamicBackgroundExtraction
 ```
 
-La primera acci髇, es definir puntos sobre el fondo en los sitios mas neutrales. Selecionaremos de forma autom醫ica pulsando primero en la imagen y luego en el bot髇 **sample**. La siguiente imagen muestra el resultado:
+La primera acci贸n, es definir puntos sobre el fondo en los sitios mas neutrales. Selecionaremos de forma autom谩tica pulsando primero en la imagen y luego en el bot贸n **sample**. La siguiente imagen muestra el resultado:
 
 ![pixinsight](img/pixinsight/DBE.jpg)
 
@@ -20,7 +20,7 @@ Una vez que esto puntos se han generado, pulsamos en **Target Image Correction**
 
 ![pixinsight](img/pixinsight/DBE_output.jpg)
 
-Descartamos el modelo de fondo, y volviendo a pulsar el bot髇 de **Auto strech** de la herramienta **STF** podemos ver la imagen corregida. EN la figura que adjunto, muestro el antes y el despu閟 de la correcci髇 de los gradientes de luz:
+Descartamos el modelo de fondo, y volviendo a pulsar el bot贸n de **Auto strech** de la herramienta **STF** podemos ver la imagen corregida. EN la figura que adjunto, muestro el antes y el despu茅s de la correcci贸n de los gradientes de luz:
 
 
 ![pixinsight](img/pixinsight/DBE_output_comp.jpg)
@@ -58,30 +58,30 @@ Ahora procedemos a calibrar el color. Para ello usaremos la herramienta:
 Process >> (All Processes) >> ColorCalibration
 ```
 
-Necesitamos crear otra *preview*, en este caso de una zona luminosa. Seleccionaremos parte de la nebulosa. Adem醩, usaremos tambi閚 la preview del fondo que usamos en el paso anterior.
+Necesitamos crear otra *preview*, en este caso de una zona luminosa. Seleccionaremos parte de la nebulosa. Adem谩s, usaremos tambi茅n la preview del fondo que usamos en el paso anterior.
 
 ![pixinsight](img/pixinsight/CC.jpg)
 
 
-En este punto, ya hemos calibrado los canales. Revisamos que la mediana estad韘tica de los tres canales se parezca. Para ello usamos la herramienta:
+En este punto, ya hemos calibrado los canales. Revisamos que la mediana estad铆stica de los tres canales se parezca. Para ello usamos la herramienta:
 
 ```
 Process >> (All Processes) >> Statistics
 ```
 
-Nos fijatemos que los tres canales tienen el mismo valor en la mediana. En este caso, el canal rojo tiene un poco m醩 debido a la emisi髇 en H-Alpha.
+Nos fijatemos que los tres canales tienen el mismo valor en la mediana. En este caso, el canal rojo tiene un poco m谩s debido a la emisi贸n en H-Alpha.
 
 ![pixinsight](img/pixinsight/statistics.jpg)
 
 
 ## 4. SCNR
 
-Con esta herramienta, reducimos el sesgo del color. Tipicamente, cuando aparece verde es esp鷕eo y podemos atribuirlo a un error.  Para visualizar este problema, aumentaremos la saturaci髇 de toda la imagen para ver estos borrones verdes. Usamos la herramienta:
+Con esta herramienta, reducimos el sesgo del color. Tipicamente, cuando aparece verde es esp煤reo y podemos atribuirlo a un error.  Para visualizar este problema, aumentaremos la saturaci贸n de toda la imagen para ver estos borrones verdes. Usamos la herramienta:
 
 ```
 Process >> (All Processes) >> CurvesTransformation
 ```
-y modificando la saturaci髇 de la imagen, podemos observar las zonas verdes.
+y modificando la saturaci贸n de la imagen, podemos observar las zonas verdes.
 
 ![pixinsight](img/pixinsight/CurvesTransformation_preview.jpg)
 
@@ -94,7 +94,7 @@ Process >> (All Processes) >> SCRN
 
 ![pixinsight](img/pixinsight/scrn.jpg)
 
-y volvemos a modificar los niveles de saturaci髇, observamos que ese verde ha desaparecido:
+y volvemos a modificar los niveles de saturaci贸n, observamos que ese verde ha desaparecido:
 
 
 
