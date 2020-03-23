@@ -1,9 +1,16 @@
 # Índice
 
+**Parte I**
+
 * [Telescopio en remoto](telescopio.html)
-* [Descargar las imágenes](descarga.html)
-* Procesar imágenes
-  * [Apilado e integración de canales](procesado_apilado.html)
+* [Descargar las imágenes del telescopio](descarga.html)
+* [Apilado e integración de canales](procesado_apilado.html)
+  
+  
+**Parte II**
+
+(*Nota: Puedes empezar aquí directamente, si quieres saltarte la Parte I.*)
+
   * [Combinado en una sola imágen](procesado_combinado.html)
   * [Calibrado](procesado_calibrado.html)
   * [Reducción de ruido](procesado_rn.html)
