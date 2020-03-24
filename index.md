@@ -13,8 +13,9 @@
 
   * [Combinado en una sola imágen](procesado_combinado.html)
   * [Calibrado](procesado_calibrado.html)
-  * [Reducción de ruido](procesado_rn.html)
-  * Estirado
+  * [Reducción de ruido lineal](procesado_rn.html)
+  * [Estirado](estirado.html)
+  * [Reducción de ruido no-lineal](reduccion_nl.html)
   * Correciones cosméticas
   * Máscaras de estrellas
   * Integrar otro canal (Ha)
