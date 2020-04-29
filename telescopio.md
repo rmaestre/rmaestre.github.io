@@ -59,6 +59,9 @@ Aparece una lista con los objetos visibles desde la estación de *New Mexico Ski
 
 ![Visibility](img/visibility.jpg)
 
+Al acceder a un telescopio, como veremos en el siguiente punto de este tutorial, podremos acceder a la visibilidad mínima para poder fotografiar un objeto, en la siguiente imagen se muestra subrayado en rojo:
+
+![Visibility](img/visibility_telescope.jpg)
 
 ### 2. Acceder a un telescopio
 
